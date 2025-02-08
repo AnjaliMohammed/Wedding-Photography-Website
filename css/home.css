@@ -1,0 +1,28 @@
+.content-section {
+  margin-top: 5%;
+}
+
+#homeImage {
+  align-self: center;
+  width: 90%;
+  margin: 5%;
+}
+
+.cta-button {
+  margin-top: 1em;
+  padding: 0.8em 1.5em;
+  background-color: white;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 2em;
+  font-size: clamp(0.5em, 2vw, 1.5em);
+  text-transform: uppercase;
+}
+.cta-button:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+#blurb {
+  margin: 5%;
+}

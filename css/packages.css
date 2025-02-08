@@ -1,0 +1,53 @@
+.content-section {
+  margin-top: 1.5%;
+}
+
+.text-section {
+  padding-left: 5%;
+}
+
+#title {
+  color: var(--primary-color);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: clamp(1.2em, 2vw, 4em);
+  font-weight: 200;
+}
+
+/* Package titles styling */
+#bronzeTitle,
+#silverTitle,
+#goldTitle {
+  margin-top: 2%;
+  font-family: var(--font-secondary);
+  font-size: clamp(1em, 2vw, 3em);
+  font-weight: 500;
+}
+
+#bronzeTitle {
+  color: var(--bronze-color);
+}
+
+#silverTitle {
+  color: var(--silver-color);
+}
+
+#goldTitle {
+  color: var(--gold-color);
+}
+
+/* Package details styling */
+#packageDetails {
+  color: var(--primary-color);
+  font-family: var(--font-primary);
+  font-size: clamp(0.2em, 1.5vw, 1em);
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/* Icons */
+i {
+  margin-right: 1%;
+}

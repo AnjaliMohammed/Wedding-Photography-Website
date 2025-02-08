@@ -1,0 +1,23 @@
+.content-section {
+  padding: 4% 10%;
+}
+
+.section-title {
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+
+.map-container iframe {
+  width: 80%;
+  height: 90%;
+  border: 0.1em solid var(--primary-color);
+  border-radius: 2em;
+  box-shadow: 3em 3em 0px rgba(170, 20, 60, 0.15);
+  background: white;
+}
+
+@media (max-width: 768px) {
+  .map-container iframe {
+    box-shadow: none;
+  }
+}
