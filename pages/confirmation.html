@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../js/head.js"></script>
+    <link rel="stylesheet" href="../css/confirmation.css">
+</head>
+<body class="background">
+    <!-- Placeholder for Navbar -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Load Navbar via JavaScript -->
+    <script src="../js/navbar.js"></script>
+
+    <!-- Order Confirmation Page Content -->
+    <div class="container-fluid content-section">
+        
+
+        <!-- Order Details -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="section-title">Your Big Day is in <strong>Our Calendar</strong>!</div>
+                <div class="order-details">
+                    <p class="order-confirmation-message" id="order-message">
+                        Sarah, your order <strong id="order-number">#123456</strong> is confirmed!
+                    </p>
+                    <ul>
+                        <li><i class="fa-regular fa-calendar"></i> <span id="order-date">August 18th, 2025</span></li>
+                        <li><i class="fa-regular fa-clock"></i> <span id="order-time">10:00 - 17:00</span></li>
+                        <li><i class="fa-solid fa-location-dot"></i> <span id="order-location">3990 Old Richmond Rd, Ottawa, ON, K2H 8R5</span></li>
+                        <li><i class="fa-solid fa-camera"></i> <a href="packages.html" id="package-link">Silver Package</a></li>
+                    </ul>
+                </div>
+        
+                <!-- What's Next Section -->
+                <div class="whats-next">
+                    <h3>What's Next?</h3>
+                    <ul>
+                        <li><i class="fa-regular fa-envelope"></i> We'll send you a detailed confirmation email shortly</li>
+                        <li><i class="fa-solid fa-users"></i> A member of our team will reach out within 1-2 business days to finalize the payment details</li>
+                        <li><i class="fa-solid fa-phone"></i> Feel free to contact us at 613-123-4567 if you have any questions or concerns</li>
+                    </ul>
+                </div>
+
+                <div class="thank-you-message">
+                    <div>Thank you for trusting us to capture your special day!</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="confirmation-image" src="../images/ConfirmationImage.png" alt="Wedding Hands">
+            </div>
+        
+        </div>     
+    </div>
+
+    <!-- JavaScript for Dynamic Content -->
+    <!-- <script src="js/orderConfirmation.js"></script> -->
+</body>
+</html>

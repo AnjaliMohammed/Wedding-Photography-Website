@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../js/head.js"></script>
+    <link rel="stylesheet" href="../css/book.css">
+</head>
+<body class="background">
+    <!-- Placeholder for Navbar -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Load Navbar via JavaScript -->
+    <script src="../js/navbar.js"></script>
+
+    <!-- Booking Page Content -->
+    <div class="container-fluid content-section">
+        <div class="section-title">Let's Bring <strong>Your Love Story</strong> to Life!</div>
+        <p class="booking-description">
+            Ready to capture the magic of your special day? Fill out the form below to secure your date and customize your wedding photography experience.  
+            We can't wait to be part of your unforgettable journey!
+        </p>
+
+        <!-- Booking Form -->
+        <form class="booking-form w-100">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col">
+                            <label for="wedding-date" class="form-label">Wedding Date</label>
+                            <input type="text" id="wedding-date" class="input-field" placeholder="DD/MM/YYYY">
+                        </div>
+                        <div class="col">
+                            <label for="time-range" class="form-label">Start Time - End Time</label>
+                            <input type="text" id="time-range" class="input-field" placeholder="08:00 - 20:00">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="wedding-location" class="form-label">Wedding Location(s)</label>
+                        <input type="text" id="wedding-location" class="input-field" placeholder="123 Address St, Ottawa, ON, A1B 2C3">
+                        <a href="#" class="add-location">+ Add another Location</a>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="guest-count" class="form-label">Estimated # of Guests</label>
+                            <input type="text" id="guest-count" class="input-field" placeholder="100">
+                        </div>
+                        <div class="col">
+                            <label for="wedding-theme" class="form-label">Wedding Theme (Optional)</label>
+                            <input type="text" id="wedding-theme" class="input-field" placeholder="Classic Elegance">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label class="form-label">Selected Package</label>
+                        <div class="package-options">
+                            <label><input class="radio-input" type="radio" name="package" value="bronze"> BRONZE</label>
+                            <label><input class="radio-input" type="radio" name="package" value="silver"> SILVER</label>
+                            <label><input class="radio-input" type="radio" name="package" value="gold"> GOLD</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row-2">
+                        <label for="special-requests" class="form-label">Additional Notes or Special Requests</label>
+                        <textarea id="special-requests" class="input-field" rows="4" placeholder="Let us know if you would like any additional services, have any restrictions, preferred style or anything else you think we should know!"></textarea>
+                    </div>
+        
+                    <div class="row">
+                        <label class="form-label">Terms and Conditions</label>
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="terms">
+                            <label for="terms">I agree to the Terms and Conditions</label>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <label class="form-label">Portfolio Consent (Optional)</label>
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="consent">
+                            <label for="consent">I consent to the use of my photos in the <strong>Forever in Focus</strong> portfolio and marketing</label>
+                        </div>
+                    </div>                    
+
+                </div>            
+            </div>
+        </form>
+        <button type="button" class="submit-btn" onclick="window.location.href='clientInfo.html'">NEXT STEP</button>
+    </div>
+</body>
+</html>

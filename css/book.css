@@ -1,0 +1,138 @@
+.content-section {
+  margin-top: 1.5%;
+}
+
+.section-title {
+  color: var(--primary-color);
+  font-family: var(--font-primary);
+  font-size: clamp(1.5em, 3vw, 2.5em);
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 1%;
+}
+
+.booking-description {
+  color: var(--primary-color);
+  font-family: var(--font-primary);
+  font-size: clamp(0.8em, 2vw, 1.35em);
+  text-align: center;
+  font-weight: 200;
+  margin: 2% 10%;
+}
+
+.booking-form .row {
+  margin-bottom: 1.5em;
+}
+
+.booking-form .col-lg-6 {
+  padding: 0 6%;
+}
+
+.form-label {
+  display: block;
+  font-family: var(--font-primary);
+  font-size: clamp(0.8em, 2vw, 1.2em);
+  font-weight: 300;
+  color: var(--primary-color);
+  text-align: left;
+  margin-bottom: 1%;
+}
+
+.input-field {
+  width: 100%;
+  padding: 1em 2em;
+  border: 1px solid var(--primary-color);
+  border-radius: 2em;
+  font-family: var(--font-primary);
+  font-size: clamp(0.5em, 2vw, 0.9em);
+  background: white;
+  box-shadow: 0px 4px 4px 0px rgba(111, 1, 0, 0.5);
+}
+
+.input-field::placeholder {
+  color: rgba(111, 1, 0, 0.5);
+  font-size: clamp(0.8em, 2vw, 1.2em);
+}
+
+.booking-form textarea {
+  height: 100%;
+  border-radius: 2em;
+}
+
+.input-field:focus {
+  border-color: rgba(170, 20, 60, 0.5);
+  box-shadow: 0 0 1em rgba(170, 20, 60, 0.2);
+  outline: none;
+}
+
+.add-location {
+  font-family: var(--font-primary);
+  text-decoration: underline;
+  text-align: right;
+  color: var(--secondary-color);
+  padding-top: 1%;
+  font-size: clamp(0.5em, 2vw, 0.8em);
+}
+
+.package-options {
+  display: flex;
+  justify-content: space-around;
+  font-family: var(--font-primary);
+  font-size: clamp(1em, 2vw, 1.5em);
+  font-weight: 400;
+}
+
+.package-options label {
+  display: flex;
+  align-items: center;
+  gap: 4%;
+  color: var(--secondary-color);
+}
+
+.radio-input {
+  cursor: pointer;
+  margin-right: 10%;
+  scale: 1.5;
+}
+
+#special-requests {
+  padding: 2em;
+  padding-bottom: 4em;
+  margin-bottom: 4%;
+}
+
+.checkbox-container {
+  display: flex;
+  gap: 10px;
+  font-family: var(--font-primary);
+  font-size: 0.8em;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+#terms,
+#consent {
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 2em;
+  padding: 1% 0;
+  font-family: var(--font-primary);
+  font-size: clamp(0.8em, 2vw, 1.5em);
+  font-style: italic;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 2% auto;
+  width: 15em;
+}
+
+.submit-btn:hover {
+  background-color: #500100;
+}

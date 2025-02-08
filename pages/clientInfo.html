@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../js/head.js"></script>
+    <link rel="stylesheet" href="../css/clientInfo.css">
+</head>
+<body class="background">
+    <!-- Placeholder for Navbar -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Load Navbar via JavaScript -->
+    <script src="../js/navbar.js"></script>
+
+    <!-- Client Information Page Content -->
+    <div class="container-fluid content-section">
+        <div class="section-title">Let's Stay <strong>Connected</strong>!</div>
+        <p class="clientInfo-description">
+            We're almost there! Share your contact details so we can finalize your booking and stay in touch as we prepare to capture every beautiful moment of your wedding day. Your dream celebration starts here!
+        </p>
+
+        <!-- Client Info Form -->
+        <form class="clientInfo-form w-100">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="first-name" class="form-label">First Name</label>
+                            <input type="text" id="first-name" class="input-field" placeholder="Your First Name">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="last-name" class="form-label">Last Name</label>
+                            <input type="text" id="last-name" class="input-field" placeholder="Your Last Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" class="input-field" placeholder="Your preferred email">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="phone" class="form-label">Cell Phone #</label>
+                            <input type="tel" id="phone" class="input-field" placeholder="(+1) 123-456-7890">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="partner-first-name" class="form-label">Partner's First Name</label>
+                            <input type="text" id="partner-first-name" class="input-field" placeholder="Partner's First Name">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="partner-last-name" class="form-label">Last Name</label>
+                            <input type="text" id="partner-last-name" class="input-field" placeholder="Partner's Last Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="partner-email" class="form-label">Partner's Email</label>
+                            <input type="email" id="partner-email" class="input-field" placeholder="Partner's preferred email">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="partner-phone" class="form-label">Partner's Cell Phone #</label>
+                            <input type="tel" id="partner-phone" class="input-field" placeholder="(+1) 123-456-7890">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label class="form-label">Preferred Method of Contact</label>
+                        <div class="contact-method">
+                            <label><input class="radio-input" type="radio" name="contact-method" value="email"> EMAIL</label>
+                            <label><input class="radio-input" type="radio" name="contact-method" value="text"> TEXT</label>
+                            <label><input class="radio-input" type="radio" name="contact-method" value="call"> CALL</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="religions" class="form-label">Religions (Optional)</label>
+                            <input type="email" id="religions" class="input-field">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="backgrounds" class="form-label">Cultural Backgrounds (Optional)</label>
+                            <input type="tel" id="backgrounds" class="input-field">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="additional-notes" class="form-label">Additional Notes</label>
+                        <textarea id="additional-notes" class="input-field" rows="4" placeholder="Anything else you think we should know about you!"></textarea>
+                    </div>  
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 text-center">
+                            <button type="button" class="submit-btn w-100" onclick="window.location.href='confirmation.html'">MAKE IT OFFICIAL</button>
+                        </div>
+                    </div>                   
+                </div>            
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
